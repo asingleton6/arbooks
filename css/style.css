@@ -99,7 +99,7 @@ a {
 /* Header */
 header {
   background: url(../img/header-bg.png);
-  height: 410px;
+  height: 500px;
   display: flex;
   justify-content: center;
   margin-top: -62px;
@@ -108,7 +108,7 @@ header {
 header .book-wrapper {
   display: flex;
   justify-content: center;
-  padding-top: 76px;
+  padding-top: 120px;
 }
 
 .book-image-wrapper {

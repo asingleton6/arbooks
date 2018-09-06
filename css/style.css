@@ -10,6 +10,14 @@
   color: #cbbce4;
 }
 
+.pink-text {
+  color: #da6859;
+}
+
+.brown-text {
+  color: #8a716a;
+}
+
 .gold-bg {
   background-color: #b5962c;
 }
@@ -18,7 +26,11 @@
   background-color: #cbbce4;
 }
 
-.light-font {
+.pink-bg {
+  background-color: #ecc8ae;
+}
+
+.lighter-text {
   font-weight: lighter;
 }
 
@@ -37,6 +49,13 @@ body {
 h1 {
   font-size: 4em;
   margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3em;
+  margin: 0;
+  padding: 15px 0;
 }
 
 p {
@@ -215,5 +234,59 @@ i.far.fa-play-circle {
 .content {
   display: flex;
   align-items: center;
+}
+
+.padding-left {
   padding-left: 15%;
+}
+
+.padding-right {
+  padding-right: 15%;
+}
+
+.padding-both {
+  padding: 0 10%;
+}
+
+.whole {
+  width: 100%;
+}
+
+.half {
+  width: 50%;
+}
+
+.third {
+  width: 33%;
+  text-align: center;
+}
+
+.alligator {
+  width: 100%;
+  position: relative;
+  bottom: -35px;
+}
+
+/* Story Book */
+.story-book {
+  padding: 30px 0;
+}
+
+.story-book .book {
+  padding: 0px 30px;
+  width: 90%;
+}
+
+.story-book .fas {
+  color: white;
+  background-color: #da6859;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.story-book p {
+  text-align: center;
+  color: #8a716a;
+  font-weight: bold;
+  font-size: 15px;
 }

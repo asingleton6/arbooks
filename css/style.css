@@ -10,6 +10,10 @@
   color: #cbbce4;
 }
 
+.dark-purple-text {
+  color: #7c7287;
+}
+
 .pink-text {
   color: #da6859;
 }
@@ -308,4 +312,24 @@ section {
   padding: 20px 0;
   border-image: url(../img/leaves-border.png) 26% 0 repeat;
   width: 410px;
+}
+
+/* Coloring Book */
+.coloring-book .fas, .coloring-book .far {
+  color: white;
+  background-color: #dfb55d;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.coloring-book p {
+  text-align: center;
+  color: #7c7287;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.coloring-book .book {
+  padding: 0px 30px;
+  width: 90%;
 }

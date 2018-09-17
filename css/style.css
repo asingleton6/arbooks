@@ -347,5 +347,53 @@ section {
 
 /* Contact */
 .contact {
-  background: url(../img/contact-bg.png);
+  background: url(../img/contact-bg.png) no-repeat;
+  background-size: cover;
+  font-size: 1em;
+}
+
+.contact form .form-control {
+  display: block;
+  background-color: #e9a573;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid #da6859;
+  padding: 20px 15px;
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 1em;
+}
+
+input.form-control::placeholder, textarea.form-control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #da6859;
+  opacity: 1;
+  font-weight: bold;
+  /* Firefox */
+}
+
+input.form-control:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #da6859;
+  font-weight: bold;
+}
+
+input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #da6859;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #da6859;
+  color: white;
+  border: none;
+  padding: 17px;
+  border-radius: 3px;
+  width: 115px;
+  float: right;
+}
+
+.antispam {
+  display: none;
 }

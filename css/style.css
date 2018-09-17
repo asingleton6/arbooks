@@ -321,10 +321,13 @@ section {
 }
 
 .leaves-border {
-  border: 87px solid;
+  border: 170px solid;
+  border-left-width: 0px;
+  border-right-width: 0px;
   padding: 20px 0;
   border-image: url(../img/leaves-border.png) 26% 0 repeat;
-  width: 410px;
+  width: 80%;
+  margin: 0 auto;
 }
 
 /* Coloring Book */

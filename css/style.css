@@ -147,15 +147,15 @@ header .book-wrapper {
 }
 
 .text-wrapper h3 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .text-wrapper p {
-  font-size: 1.3em;
+  font-size: 1.3rem;
 }
 
 i.fas.fa-chevron-circle-down.gold-text {
-  font-size: 2.5em;
+  font-size: 2.5rem;
 }
 
 /* Device */
@@ -312,7 +312,7 @@ section {
   text-align: center;
   color: #8a716a;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1em;
 }
 
 /* Goals */
@@ -342,7 +342,7 @@ section {
   text-align: center;
   color: #7c7287;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1em;
 }
 
 .coloring-book .book {
@@ -403,6 +403,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   border-radius: 3px;
   width: 115px;
   float: right;
+  font-size: 0.74em;
 }
 
 .antispam {

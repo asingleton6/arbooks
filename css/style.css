@@ -159,7 +159,7 @@ i.fas.fa-chevron-circle-down.gold-text {
 }
 
 /* Device */
-.device-wrapper {
+header .device-wrapper {
   width: 150px;
   position: relative;
   right: 187px;
@@ -176,7 +176,6 @@ i.fas.fa-chevron-circle-down.gold-text {
   width: auto;
   height: 100%;
   position: relative;
-  left: -22px;
 }
 
 .play-button {
@@ -275,6 +274,9 @@ section {
 
 .whole {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .half {
@@ -296,9 +298,14 @@ section {
 }
 
 /* Story Book */
+.story-book .storybook-wrapper {
+  width: 650px;
+  height: 400px;
+}
+
 .story-book .book {
   padding: 0px 30px;
-  width: 90%;
+  width: 100%;
 }
 
 .story-book .fas {
@@ -313,6 +320,13 @@ section {
   color: #8a716a;
   font-weight: bold;
   font-size: 1em;
+}
+
+.story-book .device-wrapper, .coloring-book .device-wrapper {
+  position: relative;
+  bottom: 250px;
+  left: 225px;
+  width: 200px;
 }
 
 /* Goals */
@@ -331,7 +345,12 @@ section {
 }
 
 /* Coloring Book */
-.coloring-book .fas, .coloring-book .far {
+.coloring-book .storybook-wrapper {
+  width: 650px;
+  height: 400px;
+}
+
+.coloring-book .third .fas, .coloring-book .third .far {
   color: white;
   background-color: #dfb55d;
   padding: 10px 10px;
@@ -347,7 +366,7 @@ section {
 
 .coloring-book .book {
   padding: 0px 30px;
-  width: 90%;
+  width: 100%;
 }
 
 /* Team Members */

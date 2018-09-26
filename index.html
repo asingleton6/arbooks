@@ -43,7 +43,10 @@
               <div class="screen fade">
                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                 <img src="img/justme.png" class="img-fluid" alt="">
-                <button class="play-button"><i class="far fa-play-circle"></i></button>
+                <button class="play-button" onclick="toggleVideo()"><i class="far fa-play-circle"></i></button>
+                <video class="storybook-video display-none" width="232" height="131">
+                  <source src="video/storybook-video.mp4" type="video/mp4">
+                </video>
               </div>
               <div class="button">
                 <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -193,6 +196,7 @@
       </div>
     </form>
   </section>
+  <script src="js/script.js"></script>
 </body>
 
 </html>

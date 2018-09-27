@@ -37,14 +37,14 @@
       </div>
       <div class="book-image-wrapper"><img class="book" src="img/header-book.png" /></div>
       <div class="device-wrapper">
-        <div class="device-container animate-bottom">
+        <div class="mission-device device-container animate-bottom">
           <div class="device-mockup iphone6_plus portrait gold">
             <div class="device">
               <div class="screen fade">
                 <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                 <img src="img/justme.png" class="img-fluid" alt="">
-                <button class="play-button" onclick="toggleVideo()"><i class="far fa-play-circle"></i></button>
-                <video class="storybook-video display-none" width="232" height="131">
+                <button class="play-button" onclick="toggleMissionVideo()"><i class="far fa-play-circle"></i></button>
+                <video class="missionbook-video display-none" width="232" height="131">
                   <source src="video/storybook-video.mp4" type="video/mp4">
                 </video>
               </div>
@@ -84,13 +84,16 @@
       <div class="whole">
         <div class="storybook-wrapper"><img class="book" src="img/storybook.png"/></div>
         <div class="device-wrapper">
-          <div class="device-container">
+          <div class="story-device device-container">
             <div class="device-mockup iphone6_plus portrait gold">
               <div class="device">
                 <div class="screen">
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                   <img src="img/story-book-iphone.png" class="img-fluid" alt="">
-                  <button class="play-button"><i class="far fa-play-circle"></i></button>
+                  <button class="play-button" onclick="toggleStoryVideo()"><i class="far fa-play-circle"></i></button>
+                  <video class="storybook-video display-none" width="232" height="131">
+                    <source src="video/storybook-video.mp4" type="video/mp4">
+                  </video>
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -134,13 +137,16 @@
       <div class="whole">
         <div class="storybook-wrapper"><img class="book" src="img/coloring-book.png"/></div>
         <div class="device-wrapper">
-          <div class="device-container">
+          <div class="coloring-device device-container">
             <div class="device-mockup iphone6_plus portrait gold">
               <div class="device">
                 <div class="screen">
                   <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                   <img src="img/coloring-book-iphone.png" class="img-fluid" alt="">
-                  <button class="play-button"><i class="far fa-play-circle"></i></button>
+                  <button class="play-button" onclick="toggleColoringVideo()"><i class="far fa-play-circle"></i></button>
+                  <video class="coloringbook-video display-none" width="232" height="131">
+                    <source src="video/coloringbook-video.mp4" type="video/mp4">
+                  </video>
                 </div>
                 <div class="button">
                   <!-- You can hook the "home button" to some JavaScript events or just remove it -->

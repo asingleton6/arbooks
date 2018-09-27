@@ -179,12 +179,13 @@ header .device-wrapper {
   position: relative;
 }
 
-header video {
+video {
   position: absolute;
   z-index: 99;
   top: 50px;
   left: -50px;
   transform: rotate(-90deg);
+  object-fit: cover;
 }
 
 .display-none {

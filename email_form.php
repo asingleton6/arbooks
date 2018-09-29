@@ -54,7 +54,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // then send the form to your email
         $to = 'asingleton6@gmail.com';
         $subject = 'Contact Form Submit';
-        $from = 'Message From The Cole Law Office Contact Form';
+        $from = 'Message From Arbooks Contact Form';
         $body = "From: $name\n E-Mail: $email\n Phone: $phone\n Message:\n $message";
         if (mail($to, $subject, $body, $from)){
             $success = "Message sent, thank you for contacting us!";

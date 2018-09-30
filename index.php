@@ -187,21 +187,21 @@
   <section class="team-members">
     <h1 class="purple-text center-text">Team Members</h1>
     <div class="content padding-both">
-      <div class="third">
+      <div class="third whole-m">
         <div class="circle-image kyoko">
           <img src="img/kyoko.png"/>
           <span>We apply AR technology to picture books to provide new possibilities for young readers and parents. These AR books allow young children to listen to a story while learning to read, and they can choose to listen in either English or Japanese.  The AR technology also allows readers to watch videos related to the story, bringing characters and scenarios from the page to life. We developed this project with the idea to make a new type of pop up book. We use a convenient AR application available on smartphones and tablets, using both the written word and audio visual materials to develop reading skills and to facilitate language learning in a way that is fun for children and parents. </span>
         </div>
         <h4 class="dark-purple-text">Kyoko Lyons <br /> <i class="lighter-text">Founder</i></h4>
       </div>
-      <div class="third">
+      <div class="third whole-m">
         <div class="circle-image itsumi">
           <img src="img/itsumi.png"/>
           <span>Some text</span>
         </div>
         <h4 class="dark-purple-text">Itsumi Fukuda <br /> <i class="lighter-text">Position</i></h4>
       </div>
-      <div class="third">
+      <div class="third whole-m">
         <div class="circle-image natalia">
           <img src="img/natalia.png"/>
           <span>Some text</span>

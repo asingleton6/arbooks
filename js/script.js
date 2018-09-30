@@ -45,3 +45,10 @@ function toggleColoringVideo() {
 
   }
 }
+
+function openMenu() {
+  //Toggle between showing and hiding the menu
+  var menu = document.querySelector("#mobile-display");
+  menu.classList.toggle("menu-hidden");
+  menu.classList.toggle("menu-z");
+};

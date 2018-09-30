@@ -20,7 +20,20 @@
 <body>
   <nav class="main-nav">
     <div class="logo">AR Books</div>
-    <ul>
+    <div class="menu-bar-wrapper" onclick="openMenu(this)">
+      <div class="menu-bar bar1"></div>
+      <div class="menu-bar bar2"></div>
+      <div class="menu-bar bar3"></div>
+    </div>
+    <ul id="mobile-display" class="menu-hidden">
+      <li class="nav-item"><a href="#mission">Mission</a></li>
+      <li class="nav-item"><a href="#story-book">Story Book</a></li>
+      <li class="nav-item"><a href="#story-book">Goal</a></li>
+      <li class="nav-item"><a href="#story-book">Coloring Book</a></li>
+      <li class="nav-item"><a href="#story-book">Team Members</a></li>
+      <li class="nav-item"><a href="#story-book">Contact Us</a></li>
+    </ul>
+    <ul id="menu-display">
       <li class="nav-item"><a href="#mission">Mission</a></li>
       <li class="nav-item"><a href="#story-book">Story Book</a></li>
       <li class="nav-item"><a href="#story-book">Goal</a></li>

@@ -381,9 +381,14 @@ section {
   width: 67%;
 }
 
+.alligator-wrapper {
+  position: relative;
+  height: 150px;
+}
+
 .alligator {
   width: 100%;
-  position: relative;
+  position: absolute;
   bottom: -58px;
 }
 

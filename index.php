@@ -73,7 +73,7 @@
   </header>
   <section class="mission">
     <div class="content padding-left">
-      <div class="two-third">
+      <div class="two-third whole-m">
         <h1 class="purple-text">Our Mission</h1>
         <p class="gold-text lighter-text">
           Bilingual picture books which apply augmented reality (AR).
@@ -81,7 +81,10 @@
           communication with others.
         </p>
       </div>
-      <div class="third"><img class="alligator" src="img/alligator.png"/></div>
+      <div class="third whole-m">
+        <div class="alligator-wrapper">
+          <img class="alligator" src="img/alligator.png"/></div>
+        </div>
     </div>
   </section>
   <section class="story-book pink-bg">

@@ -34,7 +34,7 @@
       <div class="text-wrapper">
         <h3 class="lighter-text grey-text">New Type of Pop Up Book</h3>
         <p class="gold-text">Learn More</p>
-        <a href="#mission"><i class="fas fa-chevron-circle-down gold-text"></i></a>
+        <a href="#mission"><i class="fas fa-chevron-circle-down gold-text bounce"></i></a>
       </div>
       <div class="book-image-wrapper"><img class="book" src="img/header-book.png" /></div>
       <div class="device-wrapper">

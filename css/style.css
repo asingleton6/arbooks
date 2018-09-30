@@ -366,11 +366,12 @@ section {
   padding: 0 5px;
 }
 
+.relative {
+  position: relative;
+}
+
 .whole {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .half {
@@ -422,7 +423,7 @@ section {
 }
 
 #story-book .device-wrapper, #coloring-book .device-wrapper {
-  position: relative;
+  position: absolute;
   bottom: 250px;
   left: 225px;
   width: 200px;
@@ -591,7 +592,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   #story-book .device-wrapper, #coloring-book .device-wrapper {
     width: 80px;
     bottom: 165px;
-    left: 50px;
+    left: 177px;
   }
 
   .play-button {

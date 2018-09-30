@@ -98,7 +98,7 @@
         <i class="fas fa-book-reader"></i>
         <p>Help children to build confidence through learning</p>
       </div>
-      <div class="whole">
+      <div class="relative">
         <div class="storybook-wrapper"><img class="book" src="img/storybook.png"/></div>
         <div class="device-wrapper">
           <div class="story-device device-container">
@@ -154,7 +154,7 @@
         <i class="far fa-eye"></i>
         <p>Color in a page and watch your creations come to life.</p>
       </div>
-      <div class="whole">
+      <div class="relative">
         <div class="storybook-wrapper"><img class="book" src="img/coloring-book.png"/></div>
         <div class="device-wrapper">
           <div class="coloring-device device-container">

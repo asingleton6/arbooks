@@ -132,10 +132,13 @@
   </section>
   <section class="goals">
     <div class="content">
-      <div class="third">
+      <div class="third whole-m">
         <h1 class="purple-text center-text">Our Goals</h1>
-        <img class="bird" src="img/bird.png"/></div>
-      <div class="two-third">
+        <div class="bird-wrapper">
+          <img class="bird" src="img/bird.png"/>
+        </div>
+      </div>
+      <div class="two-third whole-m">
         <p class="leaves-border gold-text lighter-text">
           We would love to create the value when the tradition and culture is combined with the efficiency of present. Also we would love to persist it as our basic missions of this project. Growing up by time to time.
         </p>

@@ -214,7 +214,7 @@
     <h2 class="pink-text center-text lighter-text">Contact Us</h2>
     <form role="form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
       <div class="form-row content padding-both">
-        <div class="half padding-5">
+        <div class="half padding-5 whole-m">
           <input type="text" class="form-control" placeholder="Name" name="name" value="<?= $name ?>">
           <span class="error"><?= $name_error ?></span>
           <input type="text" class="form-control" placeholder="Email" name="email" value="<?= $email ?>">
@@ -223,7 +223,7 @@
           <span class="error"><?= $phone_error ?></span>
           <p class="antispam">Leave this empty: <input type="text" name="url"></p>
         </div>
-        <div class="half padding-5">
+        <div class="half padding-5 whole-m">
           <textarea class="form-control" rows="8" type="text" placeholder="Please leave a detailed message." name="message"><?= $message ?></textarea>
           <button type="submit" class="btn">SUBMIT</button>
           <span class="success"><?= $success; ?></span>

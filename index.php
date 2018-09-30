@@ -71,7 +71,7 @@
       </div>
     </div>
   </header>
-  <section class="mission">
+  <section id="mission">
     <div class="content padding-left">
       <div class="two-third whole-m">
         <h1 class="purple-text">Our Mission</h1>
@@ -87,7 +87,7 @@
         </div>
     </div>
   </section>
-  <section class="story-book pink-bg">
+  <section id="story-book" class="pink-bg">
     <h2 class="pink-text lighter-text">Story Book</h2>
     <div class="content padding-both">
       <div class="third center-text whole-m">
@@ -130,7 +130,7 @@
       </div>
     </div>
   </section>
-  <section class="goals">
+  <section id="goals">
     <div class="content">
       <div class="third whole-m">
         <h1 class="purple-text center-text">Our Goals</h1>
@@ -145,7 +145,7 @@
       </div>
     </div>
   </section>
-  <section class="coloring-book purple-bg">
+  <section id="coloring-book" class="purple-bg">
     <h2 class="dark-purple-text lighter-text">Coloring Book</h2>
     <div class="content padding-both">
       <div class="third center-text whole-m">
@@ -184,7 +184,7 @@
       </div>
     </div>
   </section>
-  <section class="team-members">
+  <section id="team-members" class="team-members">
     <h1 class="purple-text center-text">Team Members</h1>
     <div class="content padding-both">
       <div class="third whole-m">
@@ -210,7 +210,7 @@
       </div>
     </div>
   </section>
-  <section class="contact">
+  <section id="contact" class="contact">
     <h2 class="pink-text center-text lighter-text">Contact Us</h2>
     <form role="form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
       <div class="form-row content padding-both">

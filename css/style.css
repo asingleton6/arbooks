@@ -332,7 +332,7 @@ i.far.fa-play-circle {
 }
 
 /* Mission */
-.mission {
+#mission {
   background: url(../img/bamboo-left.png) no-repeat 0px -37px;
   background-size: contain;
 }
@@ -393,31 +393,31 @@ section {
 }
 
 /* Story Book */
-.story-book .storybook-wrapper {
+#story-book .storybook-wrapper {
   width: 650px;
   height: 400px;
 }
 
-.story-book .book {
+#story-book .book {
   padding: 0px 30px;
   width: 100%;
 }
 
-.story-book .fas {
+#story-book .fas {
   color: white;
   background-color: #da6859;
   padding: 10px 10px;
   border-radius: 20px;
 }
 
-.story-book p {
+#story-book p {
   text-align: center;
   color: #8a716a;
   font-weight: bold;
   font-size: 1em;
 }
 
-.story-book .device-wrapper, .coloring-book .device-wrapper {
+#story-book .device-wrapper, #coloring-book .device-wrapper {
   position: relative;
   bottom: 250px;
   left: 225px;
@@ -444,26 +444,26 @@ section {
 }
 
 /* Coloring Book */
-.coloring-book .storybook-wrapper {
+#coloring-book .storybook-wrapper {
   width: 650px;
   height: 400px;
 }
 
-.coloring-book .third .fas, .coloring-book .third .far {
+#coloring-book .third .fas, #coloring-book .third .far {
   color: white;
   background-color: #dfb55d;
   padding: 10px 10px;
   border-radius: 20px;
 }
 
-.coloring-book p {
+#coloring-book p {
   text-align: center;
   color: #7c7287;
   font-weight: bold;
   font-size: 1em;
 }
 
-.coloring-book .book {
+#coloring-book .book {
   padding: 0px 30px;
   width: 100%;
 }
@@ -501,13 +501,13 @@ section {
 }
 
 /* Contact */
-.contact {
+#contact {
   background: url(../img/contact-bg.png) no-repeat;
   background-size: cover;
   font-size: 1em;
 }
 
-.contact form .form-control {
+#contact form .form-control {
   display: block;
   background-color: #e9a573;
   color: white;
@@ -555,7 +555,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 }
 
 @media only screen and (max-width: 425px) {
-  .mission {
+  #mission {
     background: none;
   }
 }
@@ -578,13 +578,13 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     height: 220px;
   }
 
-  .story-book .storybook-wrapper, .coloring-book .storybook-wrapper {
+  #story-book .storybook-wrapper, #coloring-book .storybook-wrapper {
     width: 300px;
     height: 175px;
     margin-bottom: 50px;
   }
 
-  .story-book .device-wrapper, .coloring-book .device-wrapper {
+  #story-book .device-wrapper, #coloring-book .device-wrapper {
     width: 80px;
     bottom: 165px;
     left: 50px;

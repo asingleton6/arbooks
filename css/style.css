@@ -573,18 +573,25 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     padding-left: 10%;
   }
 
-  .story-book .device-wrapper, .coloring-book .device-wrapper {
-    left: 40px;
-  }
-
   .book-image-wrapper {
     width: 280px;
     height: 220px;
   }
 
   .story-book .storybook-wrapper, .coloring-book .storybook-wrapper {
-    width: 280px;
-    height: 220px;
+    width: 300px;
+    height: 175px;
+    margin-bottom: 50px;
+  }
+
+  .story-book .device-wrapper, .coloring-book .device-wrapper {
+    width: 80px;
+    bottom: 165px;
+    left: 50px;
+  }
+
+  .play-button {
+    font-size: 0.4em;
   }
 
   .whole-m {

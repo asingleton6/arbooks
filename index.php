@@ -90,7 +90,7 @@
   <section class="story-book pink-bg">
     <h2 class="pink-text lighter-text">Story Book</h2>
     <div class="content padding-both">
-      <div class="third center-text">
+      <div class="third center-text whole-m">
         <i class="fas fa-book"></i>
         <p>Encourage vocabulary building</p>
         <i class="fas fa-video"></i>
@@ -120,7 +120,7 @@
           </div>
         </div>
       </div>
-      <div class="third center-text">
+      <div class="third center-text whole-m">
         <i class="fas fa-flag"></i>
         <p>Introduce children to different cultures</p>
         <i class="fas fa-palette"></i>
@@ -148,7 +148,7 @@
   <section class="coloring-book purple-bg">
     <h2 class="dark-purple-text lighter-text">Coloring Book</h2>
     <div class="content padding-both">
-      <div class="third center-text">
+      <div class="third center-text whole-m">
         <i class="fas fa-book"></i>
         <p>Introducing a new kind of coloring book to encourage creativity!</p>
         <i class="far fa-eye"></i>
@@ -176,7 +176,7 @@
           </div>
         </div>
       </div>
-      <div class="third center-text">
+      <div class="third center-text whole-m">
         <i class="far fa-images"></i>
         <p>Colored images will appear on your device in 3d.</p>
         <i class="fas fa-palette"></i>

@@ -28,18 +28,18 @@
     <ul id="mobile-display" class="menu-hidden">
       <li class="nav-item"><a href="#mission">Mission</a></li>
       <li class="nav-item"><a href="#story-book">Story Book</a></li>
-      <li class="nav-item"><a href="#story-book">Goal</a></li>
-      <li class="nav-item"><a href="#story-book">Coloring Book</a></li>
-      <li class="nav-item"><a href="#story-book">Team Members</a></li>
-      <li class="nav-item"><a href="#story-book">Contact Us</a></li>
+      <li class="nav-item"><a href="#goals">Goals</a></li>
+      <li class="nav-item"><a href="#coloring-book">Coloring Book</a></li>
+      <li class="nav-item"><a href="#team-members">Team Members</a></li>
+      <li class="nav-item"><a href="#contact">Contact Us</a></li>
     </ul>
     <ul id="menu-display">
       <li class="nav-item"><a href="#mission">Mission</a></li>
       <li class="nav-item"><a href="#story-book">Story Book</a></li>
-      <li class="nav-item"><a href="#story-book">Goal</a></li>
-      <li class="nav-item"><a href="#story-book">Coloring Book</a></li>
-      <li class="nav-item"><a href="#story-book">Team Members</a></li>
-      <li class="nav-item"><a href="#story-book">Contact Us</a></li>
+      <li class="nav-item"><a href="#goals">Goals</a></li>
+      <li class="nav-item"><a href="#coloring-book">Coloring Book</a></li>
+      <li class="nav-item"><a href="#team-members">Team Members</a></li>
+      <li class="nav-item"><a href="#contact">Contact Us</a></li>
     </ul>
   </nav>
   <header>

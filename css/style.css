@@ -393,12 +393,14 @@ section {
 .alligator-wrapper {
   position: relative;
   height: 150px;
+  max-width: 300px;
 }
 
 .alligator {
   width: 100%;
   position: absolute;
-  bottom: -58px;
+  bottom: -78px;
+  left: 0px;
 }
 
 /* Story Book */
@@ -569,8 +571,26 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   }
 }
 
+@media only screen and (max-width: 625px) {
+  #team-members .content {
+    flex-direction: column;
+  }
+
+  #mission .third {
+    display: none;
+  }
+
+  .padding-both-m {
+    padding: 0 10%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
-  .content {
+  #mission .content {
+    flex-direction: row;
+  }
+
+  #goals .content {
     flex-direction: column;
   }
 
@@ -634,5 +654,23 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 @media only screen and (min-width: 768px) {
   #mobile-display, .menu-bar-wrapper {
     display: none;
+  }
+
+  .text-wrapper {
+    left: 51px;
+    top: 153px;
+    font-size: 18px;
+  }
+
+  header .device-wrapper {
+    width: 300px;
+    left: 263px;
+    top: -203px;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  #story-book .content, #coloring-book .content {
+    flex-direction: column;
   }
 }

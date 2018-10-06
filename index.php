@@ -72,7 +72,7 @@
     </div>
   </header>
   <section id="mission">
-    <div class="content padding-left">
+    <div class="content padding-left padding-both-m">
       <div class="two-third whole-m">
         <h1 class="purple-text">Our Mission</h1>
         <p class="gold-text lighter-text">
@@ -83,7 +83,7 @@
       </div>
       <div class="third whole-m">
         <div class="alligator-wrapper">
-          <img class="alligator" src="img/alligator.png"/></div>
+          <img class="alligator" src="img/alligator-full.png"/></div>
         </div>
     </div>
   </section>

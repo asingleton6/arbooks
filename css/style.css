@@ -590,7 +590,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     flex-direction: row;
   }
 
-  #goals .content {
+  #goals .content, #contact .content {
     flex-direction: column;
   }
 

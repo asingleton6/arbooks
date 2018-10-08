@@ -98,8 +98,10 @@ a {
   flex-direction: row;
   justify-content: space-between;
   padding: 22px 50px;
-  position: relative;
+  position: fixed;
   z-index: 9999;
+  top: 0;
+  width: 100%;
 }
 
 .main-nav ul {

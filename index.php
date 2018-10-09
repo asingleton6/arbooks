@@ -8,7 +8,7 @@
   <meta name="description" content="Product demo for potential investors.">
   <meta name="author" content="Ashley Singleton">
 
-  <title>AR BOOKS</title>
+  <title>AR Books</title>
   <!-- Core CSS -->
   <link href="css/style.css" rel="stylesheet">
   <!-- Device Mockup -->

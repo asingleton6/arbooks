@@ -93,12 +93,18 @@
     <h2 class="pink-text lighter-text">Story Book</h2>
     <div class="content padding-both">
       <div class="third center-text whole-m">
-        <i class="fas fa-book"></i>
-        <p>Encourage vocabulary building</p>
-        <i class="fas fa-video"></i>
-        <p>Help children to learn Japanese and English with audio and video</p>
-        <i class="fas fa-book-reader"></i>
-        <p>Help children to build confidence through learning</p>
+        <div class="bullet-wrapper">
+          <i class="fas fa-book"></i>
+          <p>Encourage vocabulary building</p>
+        </div>
+        <div class="bullet-wrapper">
+          <i class="fas fa-video"></i>
+          <p>Help children to learn Japanese and English with audio and video</p>
+        </div>
+        <div class="bullet-wrapper">
+          <i class="fas fa-book-reader"></i>
+          <p>Help children to build confidence through learning</p>
+        </div>
       </div>
       <div class="relative">
         <div class="storybook-wrapper"><img class="book" src="img/storybook.png"/></div>
@@ -123,12 +129,18 @@
         </div>
       </div>
       <div class="third center-text whole-m">
-        <i class="fas fa-flag"></i>
-        <p>Introduce children to different cultures</p>
-        <i class="fas fa-palette"></i>
-        <p>Cultivate curiosity through a colorful story</p>
-        <i class="fas fa-brain"></i>
-        <p>Use AI to facilitate a new kind of reading experience</p>
+        <div class="bullet-wrapper">
+          <i class="fas fa-flag"></i>
+          <p>Introduce children to different cultures</p>
+        </div>
+        <div class="bullet-wrapper">
+          <i class="fas fa-palette"></i>
+          <p>Cultivate curiosity through a colorful story</p>
+        </div>
+        <div class="bullet-wrapper">
+          <i class="fas fa-brain"></i>
+          <p>Use AI to facilitate a new kind of reading experience</p>
+        </div>
       </div>
     </div>
   </section>
@@ -151,10 +163,14 @@
     <h2 class="dark-purple-text lighter-text">Coloring Book</h2>
     <div class="content padding-both">
       <div class="third center-text whole-m">
-        <i class="fas fa-book"></i>
-        <p>Introducing a new kind of coloring book to encourage creativity!</p>
-        <i class="far fa-eye"></i>
-        <p>Color in a page and watch your creations come to life.</p>
+        <div class="bullet-wrapper">
+          <i class="fas fa-book"></i>
+          <p>Introducing a new kind of coloring book to encourage creativity!</p>
+        </div>
+        <div class="bullet-wrapper">
+          <i class="far fa-eye"></i>
+          <p>Color in a page and watch your creations come to life.</p>
+        </div>
       </div>
       <div class="relative">
         <div class="storybook-wrapper"><img class="book" src="img/coloring-book.png"/></div>
@@ -179,10 +195,14 @@
         </div>
       </div>
       <div class="third center-text whole-m">
-        <i class="far fa-images"></i>
-        <p>Colored images will appear on your device in 3d.</p>
-        <i class="fas fa-palette"></i>
-        <p>Use your colorful creations as your own stickers (emoji) to customize your messages!</p>
+        <div class="bullet-wrapper">
+          <i class="far fa-images"></i>
+          <p>Colored images will appear on your device in 3d.</p>
+        </div>
+        <div class="bullet-wrapper">
+          <i class="fas fa-palette"></i>
+          <p>Use your colorful creations as your own stickers (emoji) to customize your messages!</p>
+        </div>
       </div>
     </div>
   </section>

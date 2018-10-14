@@ -64,6 +64,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Crimson Text', serif;
+  line-height: 1em;
 }
 
 h1 {
@@ -397,14 +398,13 @@ section {
 
 .alligator-wrapper {
   position: relative;
-  height: 150px;
-  max-width: 300px;
+  max-width: 400px;
 }
 
 .alligator {
   width: 100%;
   position: absolute;
-  bottom: -78px;
+  bottom: -176px;
   left: 0px;
 }
 
@@ -647,15 +647,19 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   #mission .third {
     display: none;
   }
-
-  .padding-both-m {
-    padding: 0 10%;
-  }
 }
 
 @media only screen and (max-width: 768px) {
   #mission .content {
     flex-direction: row;
+  }
+
+  .display-none-m {
+    display: none;
+  }
+
+  .padding-both-m {
+    padding: 0 10%;
   }
 
   #goals .content, #contact .content {

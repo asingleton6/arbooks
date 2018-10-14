@@ -574,15 +574,15 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   display: none;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 300px) {
   #mission {
     background: none;
   }
 
   #story-book .device-wrapper, #coloring-book .device-wrapper {
-    width: 80px;
-    bottom: 165px;
-    left: 177px;
+    width: 30%;
+    bottom: 77%;
+    left: 62%;
   }
 
   .book-image-wrapper {
@@ -593,26 +593,20 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   .play-button {
     font-size: 0.4em;
   }
-}
 
-@media only screen and (min-width: 425px) {
-  .book-image-wrapper {
-    width: 300px;
-    height: 220px;
+  #story-book .content, #coloring-book .content {
+    flex-direction: column;
   }
 
-  .play-button {
-    font-size: 0.4em;
+  #story-book .storybook-wrapper, #coloring-book .storybook-wrapper {
+    padding: 0;
+    padding-bottom: 50px;
   }
 }
+
+@media only screen and (min-width: 425px) {}
 
 @media only screen and (min-width: 500px) {
-  #story-book .device-wrapper, #coloring-book .device-wrapper {
-    width: 100px;
-    bottom: 207px;
-    left: 307px;
-  }
-
   .book-image-wrapper {
     width: 440px;
     height: 320px;
@@ -644,6 +638,19 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 
   #mission .third {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 625px) {
+  .third.center-text.whole-m {
+    width: 100%;
+    display: table;
+  }
+
+  .bullet-wrapper {
+    vertical-align: top;
+    display: table-cell;
+    width: 33%;
   }
 }
 
@@ -722,15 +729,33 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   .play-button {
     font-size: 0.8em;
   }
+
+  #story-book .device-wrapper, #coloring-book .device-wrapper {
+    bottom: 61%;
+  }
 }
 
-@media only screen and (max-width: 925px) {
+@media only screen and (min-width: 996px) {
+  #story-book .device-wrapper, #coloring-book .device-wrapper {
+    bottom: 54%;
+  }
+}
+
+@media only screen and (min-width: 1096px) {
   #story-book .content, #coloring-book .content {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   #story-book .storybook-wrapper, #coloring-book .storybook-wrapper {
-    padding: 0;
-    padding-bottom: 50px;
+    padding: 0 30px;
+  }
+
+  .third.center-text.whole-m {
+    width: 33%;
+  }
+
+  .bullet-wrapper {
+    display: block;
+    width: 100%;
   }
 }

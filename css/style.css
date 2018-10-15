@@ -427,6 +427,7 @@ section {
   background-color: #da6859;
   padding: 10px 10px;
   border-radius: 20px;
+  font-size: 2em;
 }
 
 #story-book p {
@@ -651,6 +652,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     vertical-align: top;
     display: table-cell;
     width: 33%;
+    padding: 0 3px;
   }
 }
 

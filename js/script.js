@@ -52,3 +52,20 @@ function openMenu() {
   menu.classList.toggle("menu-hidden");
   menu.classList.toggle("menu-z");
 };
+
+function removeTooltip() {
+  var x = document.activeElement.id;
+  var name = document.querySelector("#name-error");
+  var email = document.querySelector("#email-error");
+  var phone = document.querySelector("#phone-error");
+
+  if (x === "name") {
+    name.classList.add("display-none");
+  }
+  if (x === "email") {
+    email.classList.add("display-none");
+  }
+  if (x === "phone") {
+    phone.classList.add("display-none");
+  }
+}

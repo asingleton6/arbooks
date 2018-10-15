@@ -541,6 +541,10 @@ section {
   font-size: 1em;
 }
 
+#contact textarea.form-control {
+  height: 160px;
+}
+
 input.form-control::placeholder, textarea.form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #da6859;

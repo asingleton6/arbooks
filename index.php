@@ -232,17 +232,17 @@
       </div>
     </div>
   </section>
-  <section id="contact" class="contact">
+  <section id="contact" class="contact" onclick="removeTooltip()">
     <h2 class="pink-text center-text lighter-text">Contact Us</h2>
     <form role="form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
       <div class="form-row content padding-both relative">
         <div class="half padding-5 whole-m">
-          <input type="text" class="form-control" placeholder="Name" name="name" value="<?= $name ?>">
-          <span class="error"><?= $name_error ?></span>
-          <input type="text" class="form-control" placeholder="Email" name="email" value="<?= $email ?>">
-          <span class="error"><?= $email_error ?></span>
-          <input type="text" class="form-control" placeholder="Phone" name="phone" value="<?= $phone ?>">
-          <span class="error"><?= $phone_error ?></span>
+          <input type="text" id="name" class="form-control" placeholder="Name" name="name" value="<?= $name ?>">
+          <span id="name-error" class="error"><?= $name_error ?></span>
+          <input type="text" id="email" class="form-control" placeholder="Email" name="email" value="<?= $email ?>">
+          <span id="email-error" class="error"><?= $email_error ?></span>
+          <input type="text" id="phone" class="form-control" placeholder="Phone" name="phone" value="<?= $phone ?>">
+          <span id="phone-error" class="error"><?= $phone_error ?></span>
           <p class="antispam">Leave this empty: <input type="text" name="url"></p>
         </div>
         <div class="half padding-5 whole-m">

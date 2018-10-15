@@ -235,7 +235,7 @@
   <section id="contact" class="contact">
     <h2 class="pink-text center-text lighter-text">Contact Us</h2>
     <form role="form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
-      <div class="form-row content padding-both">
+      <div class="form-row content padding-both relative">
         <div class="half padding-5 whole-m">
           <input type="text" class="form-control" placeholder="Name" name="name" value="<?= $name ?>">
           <span class="error"><?= $name_error ?></span>

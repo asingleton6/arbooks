@@ -81,7 +81,7 @@ h2 {
 
 h4 {
   text-align: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 p {
@@ -474,6 +474,7 @@ section {
   background-color: #dfb55d;
   padding: 10px 10px;
   border-radius: 20px;
+  font-size: 2em;
 }
 
 #coloring-book p {
@@ -537,7 +538,7 @@ section {
   padding: 20px 15px;
   margin-bottom: 15px;
   width: 100%;
-  font-size: 0.74em;
+  font-size: 1em;
 }
 
 input.form-control::placeholder, textarea.form-control::placeholder {
@@ -568,11 +569,44 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   border-radius: 3px;
   width: 100%;
   float: right;
-  font-size: 0.74em;
+  font-size: 1em;
 }
 
 .antispam {
   display: none;
+}
+
+.error {
+  color: #dc6755;
+  background: #fff;
+  position: absolute;
+  text-align: center;
+  border-radius: 3px;
+  padding: 8px;
+}
+
+.error::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0d9";
+  position: relative;
+  left: -13px;
+  color: #fff;
+}
+
+.error:nth-child(2) {
+  top: 0;
+  left: 25%;
+}
+
+.error:nth-child(4) {
+  top: 31%;
+  left: 25%;
+}
+
+.error:nth-child(6) {
+  top: 62%;
+  left: 25%;
 }
 
 @media screen and (min-width: 300px) {
@@ -602,6 +636,10 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   #story-book .storybook-wrapper, #coloring-book .storybook-wrapper {
     padding: 0;
     padding-bottom: 50px;
+  }
+
+  #story-book p, #coloring-book p {
+    font-size: 1.2em;
   }
 }
 
@@ -653,6 +691,10 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     display: table-cell;
     width: 33%;
     padding: 0 3px;
+  }
+
+  p {
+    font-size: 1.1em;
   }
 }
 
@@ -710,6 +752,21 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     width: 100%;
     text-align: center;
     margin-top: 160px;
+  }
+
+  .error:nth-child(2) {
+    top: -19px;
+    left: 25%;
+  }
+
+  .error:nth-child(4) {
+    top: 13%;
+    left: 25%;
+  }
+
+  .error:nth-child(6) {
+    top: 28%;
+    left: 25%;
   }
 }
 

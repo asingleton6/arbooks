@@ -645,6 +645,10 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   #story-book p, #coloring-book p {
     font-size: 1.2em;
   }
+
+  #menu-display {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 425px) {}
@@ -723,10 +727,6 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     flex-direction: column;
   }
 
-  #menu-display {
-    display: none;
-  }
-
   .padding-left {
     padding-left: 10%;
   }
@@ -779,10 +779,6 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
     font-size: 1.3em;
   }
 
-  #mobile-display, .menu-bar-wrapper {
-    display: none;
-  }
-
   header .device-wrapper {
     width: 300px;
     left: 256px;
@@ -801,6 +797,14 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 @media only screen and (min-width: 996px) {
   #story-book .device-wrapper, #coloring-book .device-wrapper {
     bottom: 54%;
+  }
+
+  #mobile-display, .menu-bar-wrapper {
+    display: none;
+  }
+
+  #menu-display {
+    display: block;
   }
 }
 

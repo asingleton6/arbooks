@@ -69,3 +69,25 @@ function removeTooltip() {
     phone.classList.add("display-none");
   }
 }
+var japanese = document.querySelectorAll(".japanese");
+var english = document.querySelectorAll(".english");
+
+function japaneseTranslate() {
+
+  for (let j of japanese) {
+    j.classList.remove("display-none");
+    for (let e of english) {
+      e.classList.add("display-none");
+    }
+  }
+}
+
+function englishTranslate() {
+
+  for (let j of japanese) {
+    j.classList.add("display-none");
+    for (let e of english) {
+      e.classList.remove("display-none");
+    }
+  }
+}

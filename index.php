@@ -22,6 +22,10 @@
 <body>
   <nav class="main-nav">
     <div class="logo">AR Books</div>
+    <div class="language-wrapper">
+      <div class="language" onclick="englishTranslate()">Eng</div>
+      <div class="language" onclick="japaneseTranslate()">Jap</div>
+    </div>
     <div class="menu-bar-wrapper" onclick="openMenu(this)">
       <div class="menu-bar bar1"></div>
       <div class="menu-bar bar2"></div>
@@ -77,10 +81,13 @@
     <div class="content padding-left padding-both-m">
       <div class="half whole-m">
         <h1 class="purple-text">Our Mission</h1>
-        <p class="gold-text lighter-text">
+        <p class="gold-text lighter-text english">
           Bilingual picture books which apply augmented reality (AR).
           This message is for the children who will live as the next generation and also seek to understanding the diversity of culture, importance of sharing experiences and belongings, awareness of curiosity and cultivating the ability of
           communication with others.
+        </p>
+        <p class="gold-text lighter-text display-none japanese">
+          Japanese Text.
         </p>
       </div>
       <div class="half display-none-m">
@@ -153,8 +160,11 @@
         </div>
       </div>
       <div class="two-third whole-m">
-        <p class="leaves-border gold-text lighter-text">
+        <p class="leaves-border gold-text lighter-text english">
           We would love to create the value when the tradition and culture is combined with the efficiency of present. Also we would love to persist it as our basic missions of this project. Growing up by time to time.
+        </p>
+        <p class="leaves-border gold-text lighter-text display-none japanese">
+          Japanese Text.
         </p>
       </div>
     </div>

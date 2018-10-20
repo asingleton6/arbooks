@@ -81,12 +81,12 @@
     <div class="content padding-left padding-both-m">
       <div class="half whole-m">
         <h1 class="purple-text">Our Mission</h1>
-        <p class="gold-text lighter-text english">
+        <p class="gold-text bold-text english">
           Bilingual picture books which apply augmented reality (AR).
           This message is for the children who will live as the next generation and also seek to understanding the diversity of culture, importance of sharing experiences and belongings, awareness of curiosity and cultivating the ability of
           communication with others.
         </p>
-        <p class="gold-text lighter-text display-none japanese">
+        <p class="gold-text bold-text display-none japanese">
           Japanese Text.
         </p>
       </div>
@@ -160,10 +160,10 @@
         </div>
       </div>
       <div class="two-third whole-m">
-        <p class="leaves-border gold-text lighter-text english">
+        <p class="leaves-border gold-text bold-text english">
           We would love to create the value when the tradition and culture is combined with the efficiency of present. Also we would love to persist it as our basic missions of this project. Growing up by time to time.
         </p>
-        <p class="leaves-border gold-text lighter-text display-none japanese">
+        <p class="leaves-border gold-text bold-text display-none japanese">
           Japanese Text.
         </p>
       </div>

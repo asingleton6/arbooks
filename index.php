@@ -1,4 +1,5 @@
 <?php include('email_form.php'); ?>
+<?php include('cache_refresh.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +12,7 @@
   <title>AR Books</title>
   <!-- Core CSS -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="<?php echo auto_version('/css/style.css'); ?>" type="text/css" />
   <!-- Device Mockup -->
   <link href="device-mockups/device-mockups.min.css" rel="stylesheet">
   <!-- Font Awesome -->
@@ -264,6 +266,7 @@
     </form>
   </section>
   <script src="js/script.js"></script>
+  <script src="<?php echo auto_version('/js/script.js'); ?>"></script>
 </body>
 
 </html>

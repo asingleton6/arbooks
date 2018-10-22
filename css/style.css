@@ -132,20 +132,28 @@ a {
 
 .language {
   display: inline;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 23px;
   margin-right: 5px;
-  padding: 5px 10px;
+  padding: 7.5px 10px;
   background-color: #7c6f89;
   color: #fff;
   border-radius: 3px;
   cursor: pointer;
 }
 
+.language:active, .language:focus {
+  box-shadow: inset 0 0 10px 5px #5e5667;
+}
+
+.language:focus {
+  outline: none;
+}
+
 #mobile-display {
   width: 245px;
   position: absolute;
-  top: 76px;
+  top: 88px;
   right: 0px;
   background: #7c6e8a;
   padding: 10px 18px 32px 18px;
@@ -604,6 +612,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 }
 
 .error {
+  display: none;
   color: #dc6755;
   background: #fff;
   position: absolute;

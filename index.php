@@ -25,8 +25,8 @@
   <nav class="main-nav">
     <div class="logo">AR Books</div>
     <div class="language-wrapper">
-      <div class="language" onclick="englishTranslate()">Eng</div>
-      <div class="language" onclick="japaneseTranslate()">Jap</div>
+      <button class="language" onclick="englishTranslate()">Eng</button>
+      <button class="language" onclick="japaneseTranslate()">Jap</button>
     </div>
     <div class="menu-bar-wrapper" onclick="openMenu(this)">
       <div class="menu-bar bar1"></div>

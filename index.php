@@ -33,7 +33,7 @@
       <div class="menu-bar bar2"></div>
       <div class="menu-bar bar3"></div>
     </div>
-    <ul id="mobile-display" class="menu-hidden">
+    <ul id="mobile-display" class="menu-hidden english">
       <li class="nav-item"><a href="#mission">Mission</a></li>
       <li class="nav-item"><a href="#story-book">Story Book</a></li>
       <li class="nav-item"><a href="#goals">Goals</a></li>
@@ -41,20 +41,40 @@
       <li class="nav-item"><a href="#team-members">Team Members</a></li>
       <li class="nav-item"><a href="#contact">Contact Us</a></li>
     </ul>
-    <ul id="menu-display">
+    <ul id="mobile-display" class="menu-hidden display-none japanese">
+      <li class="nav-item"><a href="#mission">Japanese</a></li>
+      <li class="nav-item"><a href="#story-book">Japanese</a></li>
+      <li class="nav-item"><a href="#goals">Japanese</a></li>
+      <li class="nav-item"><a href="#coloring-book">Japanese</a></li>
+      <li class="nav-item"><a href="#team-members">Japanese</a></li>
+      <li class="nav-item"><a href="#contact">Japanese</a></li>
+    </ul>
+    <ul id="menu-display" class="english">
       <li class="nav-item"><a href="#mission">Mission</a></li>
       <li class="nav-item"><a href="#story-book">Story Book</a></li>
       <li class="nav-item"><a href="#goals">Goals</a></li>
       <li class="nav-item"><a href="#coloring-book">Coloring Book</a></li>
       <li class="nav-item"><a href="#team-members">Team Members</a></li>
       <li class="nav-item"><a href="#contact">Contact Us</a></li>
+    </ul>
+    <ul id="menu-display" class="display-none japanese">
+      <li class="nav-item"><a href="#mission">Japanese</a></li>
+      <li class="nav-item"><a href="#story-book">Japanese</a></li>
+      <li class="nav-item"><a href="#goals">Japanese</a></li>
+      <li class="nav-item"><a href="#coloring-book">Japanese</a></li>
+      <li class="nav-item"><a href="#team-members">Japanese</a></li>
+      <li class="nav-item"><a href="#contact">Japanese</a></li>
     </ul>
   </nav>
   <header>
     <div class="book-wrapper">
       <div class="text-wrapper">
-        <h3 class="lighter-text grey-text">New Type of Pop Up Book</h3>
-        <p class="gold-text">Learn More</p>
+        <h3 class="lighter-text grey-text english">New Type of Pop Up Book</h3>
+        <h3 class="lighter-text grey-text display-none japanese">Japanese Text</h3>
+        <p class="gold-text english">Learn More</p>
+        <p class="gold-text display-none japanese">
+          Japanese Text.
+        </p>
         <a href="#mission"><i class="fas fa-chevron-circle-down gold-text bounce"></i></a>
       </div>
       <div class="book-image-wrapper"><img class="book" src="img/header-book.png" /></div>
@@ -82,7 +102,10 @@
   <section id="mission">
     <div class="content padding-left padding-both-m">
       <div class="half whole-m">
-        <h1 class="purple-text">Our Mission</h1>
+        <h1 class="purple-text english">Our Mission</h1>
+        <h1 class="purple-text display-none japanese">
+          Japanese Text.
+        </h1>
         <p class="gold-text bold-text english">
           Bilingual picture books which apply augmented reality (AR).
           This message is for the children who will live as the next generation and also seek to understanding the diversity of culture, importance of sharing experiences and belongings, awareness of curiosity and cultivating the ability of
@@ -99,20 +122,32 @@
     </div>
   </section>
   <section id="story-book" class="pink-bg">
-    <h2 class="pink-text lighter-text">Story Book</h2>
+    <h2 class="pink-text lighter-text english">Story Book</h2>
+    <h2 class="pink-text display-none japanese">
+      Japanese Text.
+    </h2>
     <div class="content padding-both">
       <div class="third center-text whole-m">
         <div class="bullet-wrapper">
           <i class="fas fa-book"></i>
-          <p>Encourage vocabulary building</p>
+          <p class="english">Encourage vocabulary building</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
         <div class="bullet-wrapper">
           <i class="fas fa-video"></i>
-          <p>Help children to learn Japanese and English with audio and video</p>
+          <p class="english">Help children to learn Japanese and English with audio and video</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
         <div class="bullet-wrapper">
           <i class="fas fa-book-reader"></i>
-          <p>Help children to build confidence through learning</p>
+          <p class="english">Help children to build confidence through learning</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
       </div>
       <div class="relative">
@@ -140,15 +175,24 @@
       <div class="third center-text whole-m">
         <div class="bullet-wrapper">
           <i class="fas fa-flag"></i>
-          <p>Introduce children to different cultures</p>
+          <p class="english">Introduce children to different cultures</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
         <div class="bullet-wrapper">
           <i class="fas fa-palette"></i>
-          <p>Cultivate curiosity through a colorful story</p>
+          <p class="english">Cultivate curiosity through a colorful story</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
         <div class="bullet-wrapper">
           <i class="fas fa-brain"></i>
-          <p>Use AI to facilitate a new kind of reading experience</p>
+          <p class="english">Use AI to facilitate a new kind of reading experience</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
       </div>
     </div>
@@ -156,7 +200,8 @@
   <section id="goals">
     <div class="content">
       <div class="third whole-m">
-        <h1 class="purple-text center-text">Our Goals</h1>
+        <h1 class="purple-text center-text english">Our Goals</h1>
+        <h1 class="purple-text center-text display-none japanese">Japanese Text</h1>
         <div class="bird-wrapper">
           <img class="bird" src="img/bird.png"/>
         </div>
@@ -172,16 +217,23 @@
     </div>
   </section>
   <section id="coloring-book" class="purple-bg">
-    <h2 class="dark-purple-text lighter-text">Coloring Book</h2>
+    <h2 class="dark-purple-text lighter-text english">Coloring Book</h2>
+    <h2 class="dark-purple-text lighter-text display-none japanese">Japanese Text</h2>
     <div class="content padding-both">
       <div class="third center-text whole-m">
         <div class="bullet-wrapper">
           <i class="fas fa-book"></i>
-          <p>Introducing a new kind of coloring book to encourage creativity!</p>
+          <p class="english">Introducing a new kind of coloring book to encourage creativity!</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
         <div class="bullet-wrapper">
           <i class="far fa-eye"></i>
-          <p>Color in a page and watch your creations come to life.</p>
+          <p class="english">Color in a page and watch your creations come to life.</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
       </div>
       <div class="relative">
@@ -209,43 +261,69 @@
       <div class="third center-text whole-m">
         <div class="bullet-wrapper">
           <i class="far fa-images"></i>
-          <p>Colored images will appear on your device in 3d.</p>
+          <p class="english">Colored images will appear on your device in 3d.</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
         <div class="bullet-wrapper">
           <i class="fas fa-palette"></i>
-          <p>Use your colorful creations as your own stickers (emoji) to customize your messages!</p>
+          <p class="english">Use your colorful creations as your own stickers (emoji) to customize your messages!</p>
+          <p class="display-none japanese">
+            Japanese Text.
+          </p>
         </div>
       </div>
     </div>
   </section>
   <section id="team-members" class="team-members">
-    <h1 class="purple-text center-text">Team Members</h1>
+    <h1 class="purple-text center-text english">Team Members</h1>
+    <h1 class="purple-text center-text display-none japanese">Japanese Text</h1>
     <div class="content padding-both">
       <div class="third whole-m">
         <div class="circle-image kyoko">
           <img src="img/kyoko.png"/>
-          <span>We apply AR technology to picture books to provide new possibilities for young readers and parents. These AR books allow young children to listen to a story while learning to read, and they can choose to listen in either English or Japanese.  The AR technology also allows readers to watch videos related to the story, bringing characters and scenarios from the page to life. We developed this project with the idea to make a new type of pop up book. We use a convenient AR application available on smartphones and tablets, using both the written word and audio visual materials to develop reading skills and to facilitate language learning in a way that is fun for children and parents. </span>
+          <div class="english">We apply AR technology to picture books to provide new possibilities for young readers and parents. These AR books allow young children to listen to a story while learning to read, and they can choose to listen in either English or Japanese.  The AR technology also allows readers to watch videos related to the story, bringing characters and scenarios from the page to life. We developed this project with the idea to make a new type of pop up book. We use a convenient AR application available on smartphones and tablets, using both the written word and audio visual materials to develop reading skills and to facilitate language learning in a way that is fun for children and parents.</div>
+          <div class="display-none japanese">Japanese Text</div>
         </div>
-        <h4 class="dark-purple-text">Kyoko Lyons <br /> <i class="lighter-text">Founder</i></h4>
+        <div class="english">
+          <h4 class="dark-purple-text">Kyoko Lyons<br /> <i class="lighter-text">Founder</i></h4>
+        </div>
+        <div class="display-none japanese">
+          <h4 class="dark-purple-text">Japanese<br /> <i class="lighter-text">Japanese</i></h4>
+        </div>
       </div>
       <div class="third whole-m">
         <div class="circle-image itsumi">
           <img src="img/itsumi.png"/>
-          <span>Some text</span>
+          <div class="english">Some text</div>
+          <div class="display-none japanese">Japanese Text</div>
         </div>
-        <h4 class="dark-purple-text">Itsumi Fukuda <br /> <i class="lighter-text">Position</i></h4>
+        <div class="english">
+          <h4 class="dark-purple-text">Itsumi Fukuda <br /> <i class="lighter-text">Position</i></h4>
+        </div>
+        <div class="display-none japanese">
+          <h4 class="dark-purple-text">Japanese<br /> <i class="lighter-text">Japanese</i></h4>
+        </div>
       </div>
       <div class="third whole-m">
         <div class="circle-image natalia">
           <img src="img/natalia.png"/>
-          <span>Some text</span>
+          <div class="english">Some text</div>
+          <div class="display-none japanese">Japanese Text</div>
         </div>
+        <div class="english">
         <h4 class="dark-purple-text">Natalia La Fay <br /> <i class="lighter-text">Artist</i></h4>
+        </div>
+        <div class="display-none japanese">
+          <h4 class="dark-purple-text">Japanese<br /> <i class="lighter-text">Japanese</i></h4>
+        </div>
       </div>
     </div>
   </section>
   <section id="contact" class="contact" onclick="removeTooltip()">
-    <h2 class="pink-text center-text lighter-text">Contact Us</h2>
+    <h2 class="pink-text center-text lighter-text english">Contact Us</h2>
+    <h2 class="pink-text center-text lighter-text display-none japanese">Japanese Text</h2>
     <form role="form" method="post" action="<?= $_SERVER['PHP_SELF']; ?>">
       <div class="form-row content padding-both relative">
         <div class="half padding-5 whole-m">

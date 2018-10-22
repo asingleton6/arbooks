@@ -291,7 +291,7 @@ video {
 }
 
 .display-none {
-  display: none;
+  display: none !important;
 }
 
 .play-button {
@@ -524,7 +524,7 @@ section {
   padding: 0 10px;
 }
 
-.kyoko span, .itsumi span, .natalia span {
+.kyoko div, .itsumi div, .natalia div {
   display: none;
   position: absolute;
   bottom: 0;
@@ -541,7 +541,7 @@ section {
   margin: 0 auto;
 }
 
-.kyoko:hover span, .itsumi:hover span, .natalia:hover span {
+.kyoko:hover div, .itsumi:hover div, .natalia:hover div {
   display: block;
 }
 
@@ -739,7 +739,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   }
 
   .display-none-m {
-    display: none;
+    display: none !important;
   }
 
   .padding-both-m {

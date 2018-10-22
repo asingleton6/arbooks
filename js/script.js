@@ -48,9 +48,11 @@ function toggleColoringVideo() {
 
 function openMenu() {
   //Toggle between showing and hiding the menu
-  var menu = document.querySelector("#mobile-display");
-  menu.classList.toggle("menu-hidden");
-  menu.classList.toggle("menu-z");
+  var menu = document.querySelectorAll("#mobile-display");
+  for (let m of menu) {
+    m.classList.toggle("menu-hidden");
+    m.classList.toggle("menu-z");
+  }
 };
 
 function removeTooltip() {

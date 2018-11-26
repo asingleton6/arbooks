@@ -573,7 +573,9 @@ section {
 }
 
 #contact textarea.form-control {
-  height: 160px;
+  height: 135px;
+  margin-top: -14px;
+  border-radius: 3px;
 }
 
 input.form-control::placeholder, textarea.form-control::placeholder {
@@ -600,7 +602,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   background-color: #da6859;
   color: white;
   border: none;
-  padding: 17px;
+  padding: 21px;
   border-radius: 3px;
   width: 100%;
   float: right;

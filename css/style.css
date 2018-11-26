@@ -828,7 +828,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 
 @media only screen and (min-width: 996px) {
   #story-book .device-wrapper, #coloring-book .device-wrapper {
-    bottom: 54%;
+    bottom: 62%;
   }
 
   #mobile-display, .menu-bar-wrapper {
@@ -856,5 +856,9 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   .bullet-wrapper {
     display: block;
     width: 100%;
+  }
+
+  #story-book .device-wrapper, #coloring-book .device-wrapper {
+    bottom: 75%;
   }
 }

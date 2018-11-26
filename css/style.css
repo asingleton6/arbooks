@@ -738,6 +738,10 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   p {
     font-size: 1.1em;
   }
+
+  #story-book p, #coloring-book p {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 768px) {

@@ -823,6 +823,11 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
   #contact textarea.form-control {
     margin-top: 0;
   }
+
+  #contact p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
 }
 
 @media only screen and (min-width: 768px) {

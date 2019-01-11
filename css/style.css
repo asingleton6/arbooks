@@ -578,6 +578,15 @@ section {
   border-radius: 3px;
 }
 
+#contact p {
+  text-align: center;
+  color: #dc6755;
+  font-weight: bold;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
 input.form-control::placeholder, textarea.form-control::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #da6859;

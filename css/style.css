@@ -861,6 +861,7 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 
   #menu-display {
     display: block;
+    width: 605px;
   }
 }
 

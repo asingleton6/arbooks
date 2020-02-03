@@ -92,6 +92,10 @@ p {
   line-height: 1.5em;
 }
 
+.japanese {
+  font-weight: normal !important;
+}
+
 a {
   color: #7c7287;
 }
@@ -100,13 +104,17 @@ a {
   color: #7c7287;
 }
 
+.logo img {
+  width: 50px;
+}
+
 /* Navigation */
 .main-nav {
   background-color: rgba(223, 198, 248, 0.8);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 22px 50px;
+  padding: 15px 50px;
   position: fixed;
   z-index: 9999;
   top: 0;
@@ -127,7 +135,7 @@ a {
 
 .main-nav ul li a {
   text-decoration: none;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
 .language {
@@ -135,7 +143,8 @@ a {
   font-weight: 600;
   font-size: 23px;
   margin-right: 5px;
-  padding: 7.5px 10px;
+  width: 70px;
+  height: 40px;
   background-color: #7c6f89;
   color: #fff;
   border-radius: 3px;
@@ -205,7 +214,7 @@ header {
 header .book-wrapper {
   padding-top: 120px;
   position: relative;
-  z-index: 0;
+  z-index: 99;
 }
 
 .book-image-wrapper {
@@ -274,6 +283,7 @@ header .device-wrapper {
   position: relative;
   left: 183px;
   top: -128px;
+  z-index: 999999;
 }
 
 .device-container {
@@ -376,6 +386,17 @@ i.far.fa-play-circle {
 
 /* Mission */
 #mission {
+  position: relative;
+  z-index: 0;
+}
+
+#mission-target {
+  position: absolute;
+  left: 0px;
+  top: -88px;
+}
+
+#mission {
   background: url(../img/bamboo-left.png) no-repeat 0px -37px;
   background-size: contain;
 }
@@ -439,7 +460,22 @@ section {
   left: 0px;
 }
 
+.fake-menu {
+  height: 90px;
+}
+
 /* Story Book */
+#story-book {
+  position: relative;
+  z-index: -999;
+}
+
+#story-book-target {
+  position: absolute;
+  left: 0px;
+  top: -88px;
+}
+
 #story-book .storybook-wrapper {
   padding: 0 30px;
   max-width: 100%;
@@ -474,6 +510,11 @@ section {
   width: 200px;
 }
 
+#story-book .adjust-width {
+  width: 198px;
+  margin: 10px auto;
+}
+
 /* Goals */
 .bird-wrapper {
   position: relative;
@@ -484,7 +525,7 @@ section {
 }
 
 .leaves-border {
-  border: 170px solid;
+  border: 11.5vw solid;
   border-left-width: 0px;
   border-right-width: 0px;
   padding: 20px 0;
@@ -493,7 +534,30 @@ section {
   margin: 0 auto;
 }
 
+/* Goals */
+#goals {
+  position: relative;
+  z-index: -999;
+}
+
+#goals-target {
+  position: absolute;
+  left: 0px;
+  top: -88px;
+}
+
 /* Coloring Book */
+#coloring-book {
+  position: relative;
+  z-index: -999;
+}
+
+#coloring-book-target {
+  position: absolute;
+  left: 0px;
+  top: -88px;
+}
+
 #coloring-book .storybook-wrapper {
   max-width: 100%;
   height: 100%;
@@ -522,6 +586,17 @@ section {
 }
 
 /* Team Members */
+#team-members {
+  position: relative;
+  z-index: -999;
+}
+
+#team-members-target {
+  position: absolute;
+  left: 0px;
+  top: -88px;
+}
+
 .circle-image {
   position: relative;
 }
@@ -544,9 +619,24 @@ section {
   width: 100%;
   z-index: 99;
   border-radius: 3px;
-  font-size: 0.8em;
-  text-align: center;
+  font-size: 1.2em;
+  text-align: left;
   margin: 0 auto;
+  overflow: scroll;
+  height: 300px;
+}
+
+.natalia div {
+  text-align: center;
+  height: 80px;
+}
+
+.circle-image a {
+  font-weight: bold;
+}
+
+.circle-image p {
+  font-size: 1em;
 }
 
 .kyoko:hover div, .itsumi:hover div, .natalia:hover div {
@@ -554,6 +644,17 @@ section {
 }
 
 /* Contact */
+#contact {
+  position: relative;
+  z-index: -999;
+}
+
+#contact-target {
+  position: absolute;
+  left: 0px;
+  top: -88px;
+}
+
 #contact {
   background: url(../img/contact-bg.png) no-repeat;
   background-size: cover;
@@ -581,10 +682,10 @@ section {
 #contact p {
   text-align: center;
   color: #dc6755;
-  font-weight: bold;
-  max-width: 900px;
+  max-width: 620px;
   margin: 0 auto;
   margin-bottom: 30px;
+  padding: 0 15px;
 }
 
 input.form-control::placeholder, textarea.form-control::placeholder {
@@ -623,22 +724,25 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 }
 
 .error {
-  display: none;
-  color: #dc6755;
-  background: #fff;
+  /* color: #dc6755;
+  background: #fff; */
   position: absolute;
   text-align: center;
   border-radius: 3px;
   padding: 8px;
 }
 
+.error-display {
+  display: none;
+}
+
 .error::before {
-  font-family: "Font Awesome 5 Free";
+  /* font-family: "Font Awesome 5 Free";
   font-weight: 900;
   content: "\f0d9";
   position: relative;
   left: -13px;
-  color: #fff;
+  color: #fff; */
 }
 
 .error:nth-child(2) {
@@ -822,11 +926,6 @@ input.form-control::-ms-input-placeholder, textarea.form-control::-ms-input-plac
 
   #contact textarea.form-control {
     margin-top: 0;
-  }
-
-  #contact p {
-    margin-left: 30px;
-    margin-right: 30px;
   }
 }
 

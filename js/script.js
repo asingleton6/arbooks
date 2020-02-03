@@ -71,6 +71,7 @@ function removeTooltip() {
     phone.classList.add("display-none");
   }
 }
+
 var japanese = document.querySelectorAll(".japanese");
 var english = document.querySelectorAll(".english");
 

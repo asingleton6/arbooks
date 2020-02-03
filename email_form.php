@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $message_body .=  "$key: $value\n";
         }
         // then send the form to your email
-        $to = 'asingleton6@gmail.com';
+        $to = 'skywalker_01@icloud.com';
         $subject = 'Contact Form Submit';
         $from = 'Message From Arbooks Contact Form';
         $body = "From: $name\n E-Mail: $email\n Phone: $phone\n Message:\n $message";
